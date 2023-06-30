@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,100;1,200;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins",sans-serif;
+}
+
+.background{
+    background-image: linear-gradient( #2f5b85 50%, #152033 100%);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+.cabeçalho{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+.cabeçalho a{
+    color:white;
+    font-size: 16px;
+}
+.cabeçalho a:hover {
+    color: black;
+    transition: 0.3s all;
+}
+.nm{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #4ddedc;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #4ddedc;
+    cursor: pointer;
+}
+button{
+    color:#4ddedc ;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid #4ddedc ;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #4ddedc;
+    color: white;
+    transition: 0.5s;
+}
+.container{
+    padding: 150px 0px 0px 130px;
+    margin-left: 150px;
+}
+.texto h3{
+    color: white;
+    font-size: 15px;
+}
+.texto h1{
+    color: white;
+    margin-top: 10px;
+}
+.texto span{
+    color: #4ddedc;
+}
+.ctt a{
+color: #4ddedc;
+padding: 10px;
+margin-top: 5px;
+font-size: 20px;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.texto {
+    flex: 1;
+}
+
+.texto img {
+    float: right;
+    width: 300px; 
+    margin-left: 10px;
+    margin-right: 250px;
+    margin-top: -50px;
+    border: 6px solid #4ddedc;
+    border-radius: 50%;
+}
+.custom-link {
+    color: #4ddedc !important;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.custom-link-container {
+    margin-top: 10px;
+}
+.custom-link:hover {
+    color: white !important;
+}
+
+

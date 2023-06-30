@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="ctt.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <title>Sobre</title>
+</head>
+<body>
+    <div class="background">
+        <header>
+            <div class="nm">
+                <i class="fa-regular fa-a"></i>
+            </div>   
+            <div class="cabeçalho">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="sobre.html">Sobre</a>
+                </li>
+                <li>
+                    <a href="esco.html">Escolaridade</a>
+                </li>
+                <li>
+                    <a href="app.html">Aperfeiçoamento</a>
+                </li>
+                <li>
+                    <a href="proj.html">Projetos</a>
+                </li>
+                <button><a class="btn custom-link" href="ctt.html">Meu contato</a></button>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="texto">
+                <img src="20230629_183800.jpg" alt="avatar">
+                <form name="form" onsubmit="return Enviar();">
+
+                    <h1>Entre em contato</h1>
+
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" required="required" name="nome" />
+                    <label for="telef">Telefone</label>
+                    <input type="tel" id="telef"  name="telef" />
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" />
+                  
+                    <textarea id="assunto" placeholder="Assunto"></textarea>
+                  
+                    <input type="submit" class="enviar" value="Enviar" />
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
